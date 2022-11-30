@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/backend/firebaseConfig.py
+/backend/resume-scanner-dbac5-firebase-adminsdk-5xjf1-f00f13e242.json
+/backend/env
+/backend/__pycache__
+/backend/job_resume.pdf
+/backend/job.pdf
+/src/firebaseConfig.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
